@@ -1,0 +1,54 @@
+[
+{
+    "question": "Who is the inventor of WWW?",
+    "answers": [
+      "Bill Gates",
+     "Lee.N.Feyog",
+       "N.Resscl",
+       "Tim Berners Lee"
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "question": "World Trade Organization (WTO) came into existence in ?",
+    "answers": [
+       "1992",
+       "1993",
+       "1994",
+       "1995"
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "question": "the best conductor of heat among the following is?",
+    "answers": [
+       "Alcohol",
+       "Mercury",
+      "Ether",
+      "Water"
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "question": "SAARC was formed in?",
+   "answers": [
+    "1982",
+     "1984",
+     "1985",
+      "1986"
+   ],
+    "correctanswer": "c"
+    },
+    
+    {
+    "question": "National Science Day is observed on?",
+    "answers": [
+     "January 4",
+    "February 28",
+     "March 11",
+      "August 5"
+    ],
+    "correctanswer": "b"
+    }
+    
+]
