@@ -8,6 +8,27 @@ body{
   text-align: center;
   background-color: #f8f6f0;
 }
+.container{
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top:25%;
+    left:75%;
+    right:25%;
+   
+    transform: translate(-50%) translate(-50%);
+    background: rgba(255, 255, 255, 0.5);
+    padding:20px;
+    border: 1px solid #333;
+    
+}
+.title{
+    padding-top:20px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #38a;
+}
 h1{
   font-weight: 300;
   margin: 0px;
@@ -17,15 +38,21 @@ h1{
   color: #fff;
 }
 .question{
-  font-size: 30px;
+    padding: 20px;
+  font-size: 25px;
+  background: #fff;
+  border-radius: 20px;
   margin-bottom: 10px;
+  
 }
-.answers {
+.option {
   margin-bottom: 20px;
   text-align: left;
   display: inline-block;
+  padding:10px 0 10px 0;
+  color: #000000;
 }
-.answers label{
+.option-label{
   display: block;
   margin-bottom: 10px;
 }
@@ -44,9 +71,34 @@ button:hover{
     background-color: #38a;
 }
 
+.next.btn{
+    border: none;
+    outline: none;
+    background: #38a;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+    margin:10px;
 
+}
 
+.next-btn:hover{
+    background: #279;
+    color: #000000
+}
 
+.result{
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+}
+
+.option input:checked .option{
+    background: #08038c;
+    color: #000000;
+}
 
 .slide{
   position: absolute;
