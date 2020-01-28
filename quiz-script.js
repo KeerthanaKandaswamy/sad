@@ -46,3 +46,8 @@ return;
 loadQuestion(currentQuestion);
 }
 loadQuestion(currentQuestion);
+
+
+$("#link").click(function () {
+    $("#tab1").show();
+});
