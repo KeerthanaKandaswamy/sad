@@ -1,0 +1,43 @@
+
+
+/*The panel can be any width.The contents will adjust to the new width. */
+.medium{width:320px}
+
+a{color:white;text-decoration:none;
+  transition:color 0.4s ease-out}
+
+a:hover{color:#00BEFF}
+
+/*The height of the panel is important since the contents are positioned absolutely. You can either set the height explicitly or allow the panel to expand to the height of the image, as I've done in this example.*/
+.panel {
+  position:relative;
+  font-family:Arial;
+  overflow:hidden;
+  margin:15px 0px 15px 15px;
+  float:left;
+}
+
+.dek{background:red;width:100px;height:30px;margin-top:-30px;position:absolute;top:0;}
+.panel img{display:block}
+
+/* Sets the width to 100% for responsive goodness*/
+.headline,
+.headline .title,
+.headline .subtitle,
+.panel img {
+  width:100%;
+}
+
+
+/*Since I'm taking the subtitle out of the dom order by setting its position to aboslute, I can't set the headline background color specifically. Otherwise it would only cover the H1. Setting the background for both the title and subtitle allows them to match up seamlessly.*/
+.bg{background:black;background:rgba(2,0,8,0.80)}
+
+/* Without JS: Setting the subtitle to relative forces the browser to take its height into account. With the added subtitle height, the entire headline box sits neatly on the bottom*/
+.no-js .panel:hover .headline .subtitle{
+  position:relative;
+}
+.panel:hover .headline .title a{
+  color:#00BEFF;
+}
+
+
